@@ -112,7 +112,7 @@ export default function ScrollableTabsButtonForce() {
 </Box>
 <br />
 <Box className={styles.text} >
- We are here to be your dependable Makkah Taxi Service. We make sure you get where you need to go safely and smoothly. Whether you're going from Makkah to Madinah or just around Makkah, even to Masjid Ayesha Miqat, we're here for you. Our cars are well taken care of and come in different types to fit what you need. Our skilled drivers know the way between Makkah and Madinah and make sure you reach your stop on time and comfortably. Our prices to go from Makkah to Madinah are fair and clear. Safety is really important to us: our cars have GPS trackers and our drivers are checked out before they start driving. You can easily book your Makkah Taxi Service on our website, by phone, or with our app. Thanks for picking Harmain Taxi to get around Makkah!
+ We are here to be your dependable Makkah Taxi Service. We make sure you get where you need to go safely and smoothly. Whether you&apos;re going from Makkah to Madinah or just around Makkah, even to Masjid Ayesha Miqat, we&apos;re here for you. Our cars are well taken care of and come in different types to fit what you need. Our skilled drivers know the way between Makkah and Madinah and make sure you reach your stop on time and comfortably. Our prices to go from Makkah to Madinah are fair and clear. Safety is really important to us: our cars have GPS trackers and our drivers are checked out before they start driving. You can easily book your Makkah Taxi Service on our website, by phone, or with our app. Thanks for picking Harmain Taxi to get around Makkah!
 </Box>
 
           </Grid>
@@ -134,9 +134,9 @@ Jab e nor
 </Box>
 <br />
 <Box className={styles.text} >
-Jab e Noor Taxi Service is a trustworthy and skilled transportation company located in Harmain. We have a bunch of well-kept cars and provide many different services to help you with your transportation. Whether you need a fast ride from the airport or a relaxed tour of the city, our trained drivers will make sure you get where you're going without any problems.
+Jab e Noor Taxi Service is a trustworthy and skilled transportation company located in Harmain. We have a bunch of well-kept cars and provide many different services to help you with your transportation. Whether you need a fast ride from the airport or a relaxed tour of the city, our trained drivers will make sure you get where you&apos;re going without any problems.
 
-We're happy that we're always on time, have friendly customer service, and offer good prices.
+We&apos;re happy that we&apos;re always on time, have friendly customer service, and offer good prices.
 </Box>
 
           </Grid>
@@ -157,7 +157,7 @@ We're happy that we're always on time, have friendly customer service, and offer
 </Box>
 <br />
 <Box className={styles.text} >
-Welcome to Usman Taxi, the reliable choice for taxi services in Taif. We're here to offer you secure, trustworthy, and effective transportation. Our services cover a wide range of needs, from airport rides and business travel to tours of Taif's important places. Our collection of vehicles is well-maintained and has different options to match what you're looking for. Our team of skilled drivers knows Taif well and ensures you reach your destination on schedule and feeling comfortable. Whether your trip is for work or enjoyment, we're dedicated to giving you the best service possible. You can easily reserve your Taif Taxi Service through our website, phone call, or mobile app. Thank you for opting for Harmain Taxi to meet your transportation needs in Taif.
+Welcome to Usman Taxi, the reliable choice for taxi services in Taif. We&apos;re here to offer you secure, trustworthy, and effective transportation. Our services cover a wide range of needs, from airport rides and business travel to tours of Taif&apos;s important places. Our collection of vehicles is well-maintained and has different options to match what you&apos;re looking for. Our team of skilled drivers knows Taif well and ensures you reach your destination on schedule and feeling comfortable. Whether your trip is for work or enjoyment, we&apos;re dedicated to giving you the best service possible. You can easily reserve your Taif Taxi Service through our website, phone call, or mobile app. Thank you for opting for Harmain Taxi to meet your transportation needs in Taif.
 </Box>
 
           </Grid>
@@ -220,11 +220,11 @@ Maidan Arfat
 </Box>
 <br />
 <Box className={styles.text} >
-Maidan Arfat taxi service is a special transportation service for Hajj and Umrah pilgrims. It helps people get to and from the Maidan Arfat area during the Hajj season. The cost of this service can change based on how far you're going and what type of vehicle you're using. It's a good idea to plan ahead and check prices from different companies to make sure you're paying a fair amount.
+Maidan Arfat taxi service is a special transportation service for Hajj and Umrah pilgrims. It helps people get to and from the Maidan Arfat area during the Hajj season. The cost of this service can change based on how far you&apos;re going and what type of vehicle you&apos;re using. It&apos;s a good idea to plan ahead and check prices from different companies to make sure you&apos;re paying a fair amount.
 
-For Hajj taxi prices, the cost can change based on how far you're going, how big the vehicle is, and how comfortable it is. It's smart to look into different companies and compare prices before you decide.
+For Hajj taxi prices, the cost can change based on how far you&apos;re going, how big the vehicle is, and how comfortable it is. It&apos;s smart to look into different companies and compare prices before you decide.
 
-Similarly, Umrah taxi prices also change based on how far you're traveling, the size of the vehicle, and how comfortable it is. It's a good practice to research and compare prices from different companies before making a choice.
+Similarly, Umrah taxi prices also change based on how far you&apos;re traveling, the size of the vehicle, and how comfortable it is. It&apos;s a good practice to research and compare prices from different companies before making a choice.
 </Box>
 
           </Grid>
@@ -244,11 +244,11 @@ Khyber
 </Box>
 <br />
 <Box className={styles.text} >
-Usman taxi service specializes in transporting Hajj and Umrah pilgrims to and from the Khyber area during the Hajj and Umrah seasons. The cost of this service can vary based on how far the journey is and the type of vehicle used. To make sure you're paying a fair price, it's a good idea to book early and compare prices from different companies.
+Usman taxi service specializes in transporting Hajj and Umrah pilgrims to and from the Khyber area during the Hajj and Umrah seasons. The cost of this service can vary based on how far the journey is and the type of vehicle used. To make sure you&apos;re paying a fair price, it&apos;s a good idea to book early and compare prices from different companies.
 <br />
 Hajj taxi services offer a convenient and comfortable way for Hajj pilgrims to travel between the holy cities of Mecca and Medina. You can find these services at airports, hotels, and specific taxi stops. You can either book them in advance or when you need them, depending on availability.
 <br />
-Hajj taxi prices can differ based on factors like the distance traveled, the size of the vehicle, and the comfort level it provides. It's essential to research and compare prices from various companies before making your decision.
+Hajj taxi prices can differ based on factors like the distance traveled, the size of the vehicle, and the comfort level it provides. It&apos;s essential to research and compare prices from various companies before making your decision.
 </Box>
 
           </Grid>
@@ -268,7 +268,7 @@ Wadi e jin
 </Box>
 <br />
 <Box className={styles.text} >
-We're your reliable choice for taxi services in the Wadi e Jin area. We provide airport transfers, corporate transportation, and sightseeing tours using our well-kept vehicles. Our skilled drivers know the region well, ensuring you get to your destination on time and in comfort. Safety is a big deal for us – all our vehicles have GPS tracking, and our drivers are carefully screened. You can easily book a taxi through our website, phone call. Thank you for selecting Harmain Taxi for your transportation needs in Wadi e Jin.
+We&apos;re your reliable choice for taxi services in the Wadi e Jin area. We provide airport transfers, corporate transportation, and sightseeing tours using our well-kept vehicles. Our skilled drivers know the region well, ensuring you get to your destination on time and in comfort. Safety is a big deal for us – all our vehicles have GPS tracking, and our drivers are carefully screened. You can easily book a taxi through our website, phone call. Thank you for selecting Harmain Taxi for your transportation needs in Wadi e Jin.
 </Box>
 
           </Grid>

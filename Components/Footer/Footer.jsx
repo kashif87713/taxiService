@@ -110,7 +110,7 @@ export default function Footer() {
                 onClick={(e) => handleClick(e, 'Medical Imaging')}
                 className={styles.menudetails}
               >
-                Let's talk Now
+                Let&apos;s talk Now
               </div>
               <div
                 onClick={(e) => handleClick(e, 'Laboratory Products')}
