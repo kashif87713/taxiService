@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Image from "next/image";
+// import Image from "next/image";
 import styles from './navbar.module.css'
 import Link from 'next/link';
 // import logo from '../../img/2.png'

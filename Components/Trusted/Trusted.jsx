@@ -1,11 +1,9 @@
 import React from 'react';
 import { Card, CardContent,Button,Container,Grid,CardMedia, Box,} from "@mui/material";
 import styles from './trusted.module.css'
-import Image from "next/Image";
 import img4 from '../../Images/5.png'
 import Link from 'next/link';
-
-
+import Image from 'next/Image';
 
 export default function Trusted() {
   return (
@@ -28,7 +26,7 @@ Usman Taxi offers holy sights seeing Tours including <br /> Makkah /Medina city 
 
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-              <Image src={img4}  className={styles.img} alt='img' />
+              <Image src={img4}  className={styles.img} alt='img' height={200} width={200}/>
           </Grid>
         </Grid>
         </Container>

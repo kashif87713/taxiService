@@ -30,7 +30,7 @@ export default function Company() {
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <br />
-            <Image src={img} className={styles.img} alt="img" />
+            <Image src={img} className={styles.img} alt="img" height={200} width={200}/>
           </Grid>
         </Grid>
         <br />

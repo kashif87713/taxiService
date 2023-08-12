@@ -8,8 +8,6 @@ import Trusted from '../../Components/Trusted/Trusted';
 import Why from '../../Components/Why/Why';
 import Find from '../../Components/Find/Find'
 
-
-
 export default function HomePage() {
   return (
     <Box>

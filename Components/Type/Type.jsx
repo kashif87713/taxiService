@@ -79,7 +79,7 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel value={value} index={0}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img}  className={styles.img} alt='img' />
+              <Image src={img}  className={styles.img} alt='img' height={200} width={200}/>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
@@ -104,7 +104,7 @@ STARIA H1
       <TabPanel value={value} index={1}>
       <Grid container >
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img5}  className={styles.img} alt='img' />
+              <Image src={img5}  className={styles.img} alt='img' height={200} width={200}/>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
@@ -129,7 +129,7 @@ CAMRY
      <TabPanel value={value} index={2}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img3}  className={styles.img} alt='img'/>
+              <Image src={img3}  className={styles.img} alt='img' height={200} width={200}/>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
@@ -153,7 +153,7 @@ HIROOF
       <TabPanel value={value} index={3}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img4}  className={styles.img} alt='img'/>
+              <Image src={img4}  className={styles.img} alt='img' height={200} width={200}/>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
