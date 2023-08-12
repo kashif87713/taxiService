@@ -22,11 +22,11 @@ The Most <span> Trusted <br /> Taxi</span>  Service in <br /> Saudi Arabia
 Usman Taxi offers holy sights seeing Tours including <br /> Makkah /Medina city places and Umrah services as well.
 </Box>
 <br />
-<button  className={styles.btn}>  <Link href='/Locations'>Book Now</Link></button> 
+<button  className={styles.btn}>  <Link href='/Contact'style={{color: 'white' ,textDecoration: 'none'}} >Book Now</Link></button> 
 
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-              <Image src={img4}  className={styles.img} alt='img' height={200} width={200}/>
+              <Image src={img4}  className={styles.img} alt='img' height={400} width={400}/>
           </Grid>
         </Grid>
         </Container>

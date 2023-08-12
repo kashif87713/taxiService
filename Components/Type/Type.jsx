@@ -79,21 +79,23 @@ export default function ScrollableTabsButtonForce() {
       <TabPanel value={value} index={0}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img}  className={styles.img} alt='img' height={200} width={200}/>
+            <Box>
+              <Image src={img}  className={styles.img} alt='img' />
+              </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
-STARIA H1
+STARIA H1 7 Seater
 </Box>
 <ul className={styles.ul} >
   <li>Madina Airport to hotel <span>150 SAR</span> </li>
-  <li>Madina hotel to Airport <span>120 SAR</span> </li>
-  <li>Madina ziarah <span>200 SAR</span> </li>
-  <li>Makkah to Madina <span>500 SAR</span> </li>
-  <li>Makkah ziarah <span>200 SAR</span></li>
-  <li>Makkah to Jeddah <span>200 SAR</span> </li>
-  <li>Jeddah to Makkah <span>250 SAR</span> </li>
-  <li>Madina to Badr ziarah <span>500 SAR</span> </li>
+  <li>Madina hotel to Airport <span>150 SAR</span> </li>
+  <li>Madina ziarah <span>250 SAR</span> </li>
+  <li>Makkah to Madina <span>600 SAR</span> </li>
+  <li>Makkah ziarah <span>300 SAR</span></li>
+  <li>Makkah to Jeddah <span>300 SAR</span> </li>
+  <li>Jeddah to Makkah <span>350 SAR</span> </li>
+  <li>Madina to Badr ziarah <span>600 SAR</span> </li>
 
 </ul>
           </Grid>
@@ -104,7 +106,9 @@ STARIA H1
       <TabPanel value={value} index={1}>
       <Grid container >
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img5}  className={styles.img} alt='img' height={200} width={200}/>
+            <Box>
+              <Image src={img5}  className={styles.img} alt='img' />
+              </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
@@ -114,11 +118,11 @@ CAMRY
   <li>Madina Airport to hotel <span>150 SAR</span> </li>
   <li>Madina hotel to Airport <span>120 SAR</span> </li>
   <li>Madina ziarah <span>200 SAR</span> </li>
-  <li>Makkah to Madina <span>500 SAR</span> </li>
+  <li>Makkah to Madina <span>450 SAR</span> </li>
   <li>Makkah ziarah <span>200 SAR</span></li>
   <li>Makkah to Jeddah <span>200 SAR</span> </li>
-  <li>Jeddah to Makkah <span>250 SAR</span> </li>
-  <li>Madina to Badr ziarah <span>500 SAR</span> </li>
+  <li>Jeddah to Makkah <span>200 SAR</span> </li>
+  <li>Madina to Badr ziarah <span>450 SAR</span> </li>
 
 </ul>
           </Grid>
@@ -129,21 +133,23 @@ CAMRY
      <TabPanel value={value} index={2}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img3}  className={styles.img} alt='img' height={200} width={200}/>
+            <Box>
+              <Image src={img3}  className={styles.img} alt='img' />
+              </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
 HIROOF
 </Box>
 <ul className={styles.ul} >
-  <li>Madina Airport to hotel <span>150 SAR</span> </li>
-  <li>Madina hotel to Airport <span>120 SAR</span> </li>
-  <li>Madina ziarah <span>200 SAR</span> </li>
-  <li>Makkah to Madina <span>500 SAR</span> </li>
-  <li>Makkah ziarah <span>200 SAR</span></li>
-  <li>Makkah to Jeddah <span>200 SAR</span> </li>
-  <li>Jeddah to Makkah <span>250 SAR</span> </li>
-  <li>Madina to Badr ziarah <span>500 SAR</span> </li>
+  <li>Madina Airport to hotel <span>250 SAR</span> </li>
+  <li>Madina hotel to Airport <span>250 SAR</span> </li>
+  <li>Madina ziarah <span>300 SAR</span> </li>
+  <li>Makkah to Madina <span>750 SAR</span> </li>
+  <li>Makkah ziarah <span>400 SAR</span></li>
+  <li>Makkah to Jeddah <span>400 SAR</span> </li>
+  <li>Jeddah to Makkah <span>400 SAR</span> </li>
+  <li>Madina to Badr ziarah <span>700 SAR</span> </li>
 
 </ul>
           </Grid>
@@ -153,21 +159,23 @@ HIROOF
       <TabPanel value={value} index={3}>
       <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-              <Image src={img4}  className={styles.img} alt='img' height={200} width={200}/>
+            <Box>
+              <Image src={img4}  className={styles.img} alt='img' />
+              </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
-GMC
+GMC 7 Seater
 </Box>
 <ul className={styles.ul} >
-  <li>Madina Airport to hotel <span>150 SAR</span> </li>
-  <li>Madina hotel to Airport <span>120 SAR</span> </li>
-  <li>Madina ziarah <span>200 SAR</span> </li>
-  <li>Makkah to Madina <span>500 SAR</span> </li>
-  <li>Makkah ziarah <span>200 SAR</span></li>
-  <li>Makkah to Jeddah <span>200 SAR</span> </li>
-  <li>Jeddah to Makkah <span>250 SAR</span> </li>
-  <li>Madina to Badr ziarah <span>500 SAR</span> </li>
+  <li>Madina Airport to hotel <span>300 SAR</span> </li>
+  <li>Madina hotel to Airport <span>300 SAR</span> </li>
+  <li>Madina ziarah <span>300 SAR</span> </li>
+  <li>Makkah to Madina <span>850 SAR</span> </li>
+  <li>Makkah ziarah <span>400 SAR</span></li>
+  <li>Makkah to Jeddah <span>400 SAR</span> </li>
+  <li>Jeddah to Makkah <span>400 SAR</span> </li>
+  <li>Madina to Badr ziarah <span>800 SAR</span> </li>
 
 </ul>
           </Grid>

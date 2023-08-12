@@ -1,11 +1,11 @@
 .about{
   background: url('../../Images/bg6.webp');
-  height: 40vh;
-  width: 101%;
+  height: 60vh;
+  width: 100%;
   background-size: cover;
   background-position: center;
   padding: 190px 0px 8px 0px;
-  margin: -8px;
+  /* margin: -8px; */
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

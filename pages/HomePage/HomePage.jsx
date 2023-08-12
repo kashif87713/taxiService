@@ -19,7 +19,7 @@ Saudi Arabia.</div></i>
 <br />
 <br />
 </Box>
-<button  className={styles.btn}>  <Link href='/Locations'> <a className={styles.link}>Collection</a></Link></button> 
+<button  className={styles.btn}>  <Link href='/Locations' style={{ color:'white' , textDecoration: 'none'}} >Collection</Link></button> 
       </Box>
       <br />
       <Booking/>

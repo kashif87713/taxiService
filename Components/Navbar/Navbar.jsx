@@ -57,11 +57,11 @@ const Navbar = () => {
       >
         <ul>
           <li>  <Link href='/' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Home</Link></li>
-          <li>  <Link href='/products' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Our Vehicles</Link></li>
-          <li>  <Link href='/Career' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Locations</Link></li>
+          <li>  <Link href='/Vehicles' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Our Vehicles</Link></li>
+          <li>  <Link href='/Locations' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Locations</Link></li>
           <li>  <Link href='/About' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>About</Link></li>
           {/* <li>  <Link href='/apply' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Apply</Link></li> */}
-          <li>  <Link href='/contact' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Contact Us</Link></li>
+          <li>  <Link href='/Contact' className={styles.pink}  onClick={() => setMenuOpen(!menuOpen)}>Contact Us</Link></li>
           </ul>
       </div>
     </div>

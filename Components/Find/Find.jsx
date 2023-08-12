@@ -31,7 +31,7 @@ export default function Find() {
           <br />
           <button className={styles.btn}>
             {" "}
-            <Link href="/Locations">Book Now</Link>
+            <Link href="/Contact" style={{color: 'white' ,textDecoration: 'none'}}  >Book Now</Link>
           </button>
         </center>
       </Box>

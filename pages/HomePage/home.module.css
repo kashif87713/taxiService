@@ -2,13 +2,10 @@
 .home{
   background: url('../../Images/bg.jpg');
   height: 100vh;
-  width: 100.5%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -8px;
-  /* padding: 0; */
-  box-sizing: border-box;
 }
 .home::before{
     content: "";
@@ -40,13 +37,13 @@ font-size: 1.8rem;
 top: 57%;
 }
 .btn{
-  height: 4rem;
-  width: 16rem;
+  height: 3rem;
+  width: 12rem;
   background-color: #FFC632;
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.3rem;
   border-radius: 15px 0 15px 0;
   position: absolute;
   top: 56%;

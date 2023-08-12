@@ -1,11 +1,10 @@
 .vehicles{
   background: url('../../Images/gmc.webp');
-  height: 40vh;
-  width: 101%;
+  height: 60vh;
+  width: 100%;
   background-size: cover;
   background-position: center;
   padding: 190px 0px 8px 0px;
-  margin: -8px;
   position: relative;
 }
 .vehicles::before{

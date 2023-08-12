@@ -1,9 +1,8 @@
 .footer {
-  /* padding: 2rem; */
-  /* background-color:#FFC632; */
+  
   height: auto;
   font-family: sofia-pro,sans-serif;
-  padding: 3rem 0;
+  padding: 3rem 0px;
   background-color: whitesmoke;
 }
 .foter{
@@ -126,4 +125,8 @@ color: black;
   .footer{
     padding: 0rem;
   }
+  .foter{
+    width: 95%;
+    margin: auto;
+}
 }

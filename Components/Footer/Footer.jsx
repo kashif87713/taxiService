@@ -53,39 +53,39 @@ export default function Footer() {
               </div>
 
               <br />
-              <Link href="/" className={styles.helpdetails}>
-                <u>
+              <Link href="/" className={styles.helpdetails} style={{textDecoration: 'none'}}  >
+              
                   <b>Home</b>{" "}
-                </u>
+                
               </Link>
 
               <br />
               <br />
-              <Link href="/Vehicles" className={styles.helpdetails}>
-                <u>
+              <Link href="/Vehicles" className={styles.helpdetails} style={{textDecoration: 'none'}} >
+              
                   <b>Our Vehicles </b>{" "}
-                </u>
+                
               </Link>
               <br />
               <br />
-              <Link href="/Locations" className={styles.helpdetails}>
-                <u>
+              <Link href="/Locations" className={styles.helpdetails} style={{textDecoration: 'none'}} >
+              
                   <b>Locations</b>{" "}
-                </u>
+                
               </Link>
               <br />
               <br />
-              <Link href="/About" className={styles.helpdetails}>
-                <u>
+              <Link href="/About" className={styles.helpdetails} style={{textDecoration: 'none'}} >
+              
                   <b>About</b>{" "}
-                </u>
+                
               </Link>
               <br />
               <br />
-              <Link href="/Contact" className={styles.helpdetails}>
-                <u>
+              <Link href="/Contact" className={styles.helpdetails} style={{textDecoration: 'none'}} >
+              
                   <b>Contact</b>{" "}
-                </u>
+                
               </Link>
             </Grid>
 
@@ -143,7 +143,7 @@ export default function Footer() {
                 <div className={styles.ico}>
                   <PhoneSharpIcon fontSize="medium" />
                 </div>
-                <Link href="tel:+966 54 344 6382" className={styles.icons}>
+                <Link href="tel:+966 54 344 6382" className={styles.icons} style={{textDecoration: 'none'}} >
                 +966 54 344 6382                </Link>
               </Box>
               <br />
@@ -155,6 +155,7 @@ export default function Footer() {
                   href="https://wa.me/+971506608415"
                   target="_blank"
                   className={styles.icons}
+                  style={{textDecoration: 'none'}}
                 >
 +966 54 344 6382                </Link>
               </Box>
@@ -166,6 +167,7 @@ export default function Footer() {
                 <Link
                   href="mailto:Subhantaxi786@gmail.com "
                   className={styles.icons}
+                  style={{textDecoration: 'none'}}
                 >
                   Subhantaxi786@gmail.com{" "}
                 </Link>
