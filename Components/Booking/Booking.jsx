@@ -31,6 +31,7 @@ export default function Booking() {
                 <Link href="tel:+966 54 344 6382" className={styles.number} style={{textDecoration: 'none'}} >
                 +966 54 344 6382                </Link>
                 <br />
+                <br />
               </Box>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}>

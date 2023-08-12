@@ -69,10 +69,10 @@ export default function ScrollableTabsButtonForce() {
       <Box sx={{  borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons
          allowScrollButtonsMobile aria-label="scrollable force tabs example" className={styles.tab}  >
-          <Tab label= "Staria h1 " className={styles.tabhead} {...a11yProps(0)} />
-          <Tab label="Camry" className={styles.tabhead} {...a11yProps(1)} />
-          <Tab label="Hiroof" className={styles.tabhead} {...a11yProps(2)} />
-          <Tab label="GMC" className={styles.tabhead} {...a11yProps(3)} />
+          <Tab label= "Staria h1 " className={styles.tabhead} sx={{backgroundColor:'white' }} {...a11yProps(0)} />
+          <Tab label="Camry" className={styles.tabhead} sx={{backgroundColor:'white' }} {...a11yProps(1)} />
+          <Tab label="Hiroof" className={styles.tabhead} sx={{backgroundColor:'white' }} {...a11yProps(2)} />
+          <Tab label="GMC" className={styles.tabhead} sx={{backgroundColor:'white' }} {...a11yProps(3)} />
 
         </Tabs>
       </Box>

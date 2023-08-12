@@ -12,9 +12,6 @@
   border-radius: 5px;
   font-weight: 600;
   font-size: 1rem;
-  /* background-color: #FFC632; */
-  background-color: white;
-  /* border: 1px solid white ; */
   width: 10rem;
 }
 .tabhead:first-child:active {
@@ -65,6 +62,9 @@ padding: 0 0% 0 5%;
 @media screen and (min-width:300px ) and (max-width:470px){
   .tab{
 padding: 0 2% 0 0%;
+  }
+  .tabhead{
+    width: 8rem;
   }
   .card{
       width: 100%;

@@ -90,41 +90,49 @@ export default function ScrollableTabsButtonForce() {
                   <Tab
                     label="Makkah "
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(0)}
                   />
                   <Tab
                     label="Jab e Nor"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(1)}
                   />
                   <Tab
                     label="Taif"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(2)}
                   />
                   <Tab
                     label="Gare Hirea"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(3)}
                   />
                   <Tab
                     label="Gare Sor"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(4)}
                   />
                   <Tab
                     label="Maidan"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(5)}
                   />
                   <Tab
                     label="Khyber"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(6)}
                   />
                   <Tab
                     label="Wadi e jin"
                     className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(7)}
                   />
                 </Tabs>

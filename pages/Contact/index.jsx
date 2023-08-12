@@ -35,7 +35,7 @@ export default function index() {
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <LocationOnIcon className={styles.icon} />{" "}
+                  <LocationOnIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Location</div>
@@ -45,14 +45,11 @@ export default function index() {
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <CallIcon className={styles.icon} />{" "}
+                  <CallIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Contact Number</div>
-                {/* <div className={styles.infor}>
-                  +966 54 344 6382 <br /> <br />
-                  +966 05 357 1037
-                </div> */}
+               
                 <Link
                   href="https://wa.me/+966 54 344 6382"
                   target="_blank"
@@ -75,7 +72,7 @@ export default function index() {
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <EmailIcon className={styles.icon} />{" "}
+                  <EmailIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Subhanumrahtaxi786@gmail.com</div>
