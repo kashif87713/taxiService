@@ -1,0 +1,68 @@
+.element{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tab{
+  padding: 0 0 0 15rem;
+}
+.tabhead{
+  margin: 3px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  /* background-color: #FFC632; */
+  background-color: white;
+  /* border: 1px solid white ; */
+  width: 10rem;
+}
+.tabhead:first-child:active {
+  background-color: #071E57;
+}
+.tabhead:hover{
+  background-color: #071E57;
+  color: white;
+  border-radius: 5px;
+
+}
+.header{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.ul{
+  margin: 0;
+  padding: 0;
+}
+.ul li{
+  font-weight: 100;
+  padding-top: .8rem;
+}
+.ul span{
+  color: #FFC632;
+}
+.img{
+  cursor: pointer;
+  transition: background 0.3s, border 0.3s,;
+width: 100%;
+height: 400px;
+}
+@media screen and (min-width:601px ) and (max-width:997px){
+  .tab{
+padding: 0 0 0 1%;
+  }
+}
+@media screen and (min-width:471px ) and (max-width:600px){
+  .tab{
+padding: 0 0% 0 5%;
+  }
+}
+@media screen and (min-width:300px ) and (max-width:470px){
+  .tab{
+padding: 0 2% 0 0%;
+  }
+  .card{
+      width: 100%;
+  height: 320px;
+  }
+}

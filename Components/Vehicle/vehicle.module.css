@@ -1,0 +1,15 @@
+
+.vehicle{
+  background-color: whitesmoke;
+  height: auto;
+  width: 100%;
+  /* padding: 1rem 0; */
+}
+.header{
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+  color: #FFC632;
+}

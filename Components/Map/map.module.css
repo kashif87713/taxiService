@@ -1,0 +1,43 @@
+.name{
+  width: 85%;
+  height: 3rem;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  padding: 0 1rem;
+  border-radius: 10px;
+  color:rgb(146, 140, 140);
+  box-shadow: 0px 0px 5px #e5e5e9;
+
+}
+.name2{
+  width: 93%;
+  height: 3rem;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  padding: 0 1rem;
+  border-radius: 10px;
+  color:black;
+  box-shadow: 0px 0px 5px #e5e5e9;
+
+}
+.label{
+  color:#FFC632;
+  margin-left: 1.5rem;
+  line-height: 40px;
+}
+.btn{
+  height: 3rem;
+  width: 10rem;
+  background-color:black;
+  border: none;
+  color:  #FFC632;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 15px 0 15px 0; 
+}
+.btn:hover{
+  background-color: #FFC632;
+  color: black;
+}
