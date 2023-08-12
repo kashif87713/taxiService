@@ -5,7 +5,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Image from "next/Image";
+import Image from "next/image";
 import {useRouter} from 'next/router';
 import img from '../../Images/1.png'
 import img3 from '../../Images/2.png'

@@ -5,7 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Image from "next/Image";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import img from "../../Images/ziarat/1.webp";
 import img1 from "../../Images/ziarat/2.webp";

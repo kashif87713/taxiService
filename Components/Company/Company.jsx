@@ -3,7 +3,7 @@ import { Box, Typography, Container, Grid } from "@mui/material";
 import styles from "./company.module.css";
 import img from "../../Images/9.webp";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 
 export default function Company() {
   return (

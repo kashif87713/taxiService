@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './vehicle.module.css'
 import { Box, Typography, Container, Grid } from "@mui/material";
-import BasicTabs from '../type/type';
+import BasicTabs from '../Type/Type';
 
 export default function Vehicle() {
   return (

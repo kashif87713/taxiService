@@ -3,7 +3,7 @@ import { Card, CardContent,Button,Container,Grid,CardMedia, Box,} from "@mui/mat
 import styles from './trusted.module.css'
 import img4 from '../../Images/5.png'
 import Link from 'next/link';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 export default function Trusted() {
   return (
