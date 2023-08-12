@@ -14,6 +14,8 @@ export default function Vehicle() {
   <br />
 Subhan Umrah <span>Taxi Vehicle</span>  Collection
 </Box>
+<br />
+<div className={styles.text} >We provide taxi service All over Saudi Arabia</div>
 </center>
     <BasicTabs/>
 </Container>
