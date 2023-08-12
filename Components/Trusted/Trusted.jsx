@@ -19,7 +19,7 @@ export default function Trusted() {
 The Most <span> Trusted <br /> Taxi</span>  Service in <br /> Saudi Arabia
 </Box>
 <Box className={styles.header2}>
-Usman Taxi offers holy sights seeing Tours including <br /> Makkah /Medina city places and Umrah services as well.
+Subhan Umrah Taxi offers holy sights seeing Tours including <br /> Makkah /Medina city places and Umrah services as well.
 </Box>
 <br />
 <button  className={styles.btn}>  <Link href='/Contact'style={{color: 'white' ,textDecoration: 'none'}} >Book Now</Link></button> 

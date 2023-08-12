@@ -10,6 +10,12 @@
   box-shadow: 0px 0px 5px #e5e5e9;
 
 }
+.name:hover{
+  
+    box-shadow: 0px 0px 15px #d1d1d4;
+    transform: scale(1.01);   
+  }
+
 .name2{
   width: 85%;
   height: 3rem;
@@ -29,15 +35,18 @@
 }
 .btn{
   height: 3rem;
-  width: 10rem;
+  width: 12rem;
   background-color:black;
   border: none;
-  color:  #FFC632;
+  color:  white;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 15px 0 15px 0; 
 }
+
 .btn:hover{
-  background-color: #FFC632;
-  color: black;
+  background-color: rgb(100, 96, 96);
+  margin-right: 1px;
+  box-shadow: 0px 0px 15px #757577;
+  transform: scale(1.05);   
 }

@@ -36,6 +36,15 @@
 .icon{
   color: #FFC632;
 font-size: 3rem;
+cursor: pointer;
+box-shadow: 0px 24px 80px -24px rgba(0, 0, 0, 0.24);
+    transition: background 0.3s, border 0.3s,;
+    
+  }
+  .icon:hover{
+  transform: scale(1.05);   
+  color: #f0c14c;
+
 }
 .head{
   color: #34373b;

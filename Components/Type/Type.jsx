@@ -164,9 +164,9 @@ HIROOF
               </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-<Box className={styles.header} >
+<div className={styles.header} >
 GMC 7 Seater
-</Box>
+</div>
 <ul className={styles.ul} >
   <li>Madina Airport to hotel <span>300 SAR</span> </li>
   <li>Madina hotel to Airport <span>300 SAR</span> </li>

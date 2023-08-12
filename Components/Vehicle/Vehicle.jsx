@@ -12,7 +12,7 @@ export default function Vehicle() {
 <Box className={styles.header} >
   <br />
   <br />
-Usman <span>Taxi Vehicle</span>  Collection
+Subhan Umrah <span>Taxi Vehicle</span>  Collection
 </Box>
 </center>
     <BasicTabs/>

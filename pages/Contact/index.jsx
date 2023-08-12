@@ -5,6 +5,8 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import Map from "../../Components/Map/Map";
+import Link from "next/link";
+
 
 export default function index() {
   return (
@@ -47,10 +49,27 @@ export default function index() {
                 </div>
                 <br />
                 <div className={styles.head}>Contact Number</div>
-                <div className={styles.infor}>
-                  +966 54 344 6382 <br />
+                {/* <div className={styles.infor}>
+                  +966 54 344 6382 <br /> <br />
                   +966 05 357 1037
-                </div>
+                </div> */}
+                <Link
+                  href="https://wa.me/+966 54 344 6382"
+                  target="_blank"
+                  className={styles.infor}
+                  style={{textDecoration: 'none'}}
+                >
++966 54 344 6382                </Link>
+<br />
+<br />
+<Link
+                  href="https://wa.me/+966 05 357 1037"
+                  target="_blank"
+                  className={styles.infor}
+                  style={{textDecoration: 'none'}}
+                >
+                  +966 05 357 1037
+               </Link>
               </Grid>
               <br />
               <Grid item xs={12} sm={4} md={4} lg={4}>
@@ -59,7 +78,7 @@ export default function index() {
                   <EmailIcon className={styles.icon} />{" "}
                 </div>
                 <br />
-                <div className={styles.head}>Subhantaxi786@gmail.com</div>
+                <div className={styles.head}>Subhanumrahtaxi786@gmail.com</div>
                 <div className={styles.infor}>Makkah, Saudia arabia</div>
               </Grid>
             </Grid>

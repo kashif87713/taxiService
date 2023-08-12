@@ -216,7 +216,7 @@ export default function ScrollableTabsButtonForce() {
                 <Box className={styles.header}>Taif</Box>
                 <br />
                 <Box className={styles.text}>
-                  Welcome to Usman Taxi, the reliable choice for taxi services
+                  Welcome to Subhan Umrah taxi, the reliable choice for taxi services
                   in Taif. We&apos;re here to offer you secure, trustworthy, and
                   effective transportation. Our services cover a wide range of
                   needs, from airport rides and business travel to tours of
@@ -253,7 +253,7 @@ export default function ScrollableTabsButtonForce() {
                 <Box className={styles.header}>Gare Hirea</Box>
                 <br />
                 <Box className={styles.text}>
-                  Welcome to Usman Taxi, your go-to provider for Gar e Hira taxi
+                  Welcome to Subhan Umrah taxi, your go-to provider for Gar e Hira taxi
                   services. Our company is dedicated to providing safe, reliable
                   and efficient transportation to all of our customers. We offer
                   a wide range of services including airport transfers,
@@ -289,7 +289,7 @@ export default function ScrollableTabsButtonForce() {
                 <Box className={styles.header}>Gare sor</Box>
                 <br />
                 <Box className={styles.text}>
-                  Welcome to Usman Taxi, the top choice for Gar e Sor taxi
+                  Welcome to Subhan Umrah taxi, the top choice for Gar e Sor taxi
                   services. Our main goal is to provide you with secure,
                   dependable, and effective transportation. Our services cover a
                   wide spectrum, including airport transfers, corporate travel,
@@ -362,7 +362,7 @@ export default function ScrollableTabsButtonForce() {
                 <Box className={styles.header}>Khyber</Box>
                 <br />
                 <Box className={styles.text}>
-                  Usman taxi service specializes in transporting Hajj and Umrah
+                  Subhan Umrah taxi service specializes in transporting Hajj and Umrah
                   pilgrims to and from the Khyber area during the Hajj and Umrah
                   seasons. The cost of this service can vary based on how far
                   the journey is and the type of vehicle used. To make sure

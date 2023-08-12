@@ -24,7 +24,8 @@
   background-color: #071E57;
   color: white;
   border-radius: 5px;
-
+  box-shadow: 0px 0px 15px #fafaff;
+  transform: scale(1.05); 
 }
 .header{
   font-size: 2rem;
@@ -44,8 +45,12 @@
 .img{
   cursor: pointer;
   transition: background 0.3s, border 0.3s,;
-width: 100%;
+width: 95%;
 height: 400px;
+}
+.img:hover{
+  box-shadow: 0px 0px 15px #f0f0f1;
+  transform: scale(1.05);   
 }
 @media screen and (min-width:601px ) and (max-width:997px){
   .tab{

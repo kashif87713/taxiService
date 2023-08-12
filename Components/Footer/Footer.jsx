@@ -6,8 +6,6 @@ import PhoneSharpIcon from "@mui/icons-material/PhoneSharp";
 import EmailIcon from "@mui/icons-material/Email";
 import { createStyles, makeStyles } from "@mui/styles";
 import { useRouter } from "next/router";
-
-
 import Link from "next/link";
 
 export default function Footer() {
@@ -22,9 +20,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.foter}>
-       
-        <br />
-        <br />
+               <br />
         <Container>
           <Grid container>
             <Grid item xs={12} sm={6} md={6} lg={3}>
@@ -34,7 +30,7 @@ export default function Footer() {
               {/* <br/> */}
               <Typography className={styles.about} pt={2}>
                 {" "}
-                Usman taxi service  has a wide range of premium quality
+                Subhan Umrah taxi service  has a wide range of premium quality
                 services to provide the best value for money to global
                 customers
               </Typography>
@@ -152,7 +148,7 @@ export default function Footer() {
                   <WhatsAppIcon fontSize="medium" />
                 </div>
                 <Link
-                  href="https://wa.me/+971506608415"
+                  href="https://wa.me/+966 54 344 6382"
                   target="_blank"
                   className={styles.icons}
                   style={{textDecoration: 'none'}}
@@ -165,11 +161,11 @@ export default function Footer() {
                   <EmailIcon fontSize="medium" />
                 </div>
                 <Link
-                  href="mailto:Subhantaxi786@gmail.com "
+                  href="mailto:Subhanumrahtaxi786@gmail.com "
                   className={styles.icons}
                   style={{textDecoration: 'none'}}
                 >
-                  Subhantaxi786@gmail.com{" "}
+                  Subhanumrahtaxi786@gmail.com{" "}
                 </Link>
               </Box>
               
@@ -182,7 +178,7 @@ export default function Footer() {
           <br />
           <Grid>
             <Typography className={styles.footerrights}>
-              Copyright ©  2023 Usman taxi services  (Pvt) Ltd. All
+              Copyright ©  2023 Subhan Umrah taxi services  (Pvt) Ltd. All
               Rights Reserved.
             </Typography>
           <br />

@@ -1,7 +1,9 @@
 import React from "react";
 import { Box, Typography, Container, Grid } from "@mui/material";
 import styles from "./booking.module.css";
-import PermIdentityIcon from "@mui/icons-material/PermIdentity";
+// import PermIdentityIcon from "@mui/icons-material/PermIdentity";
+import Link from "next/link";
+
 
 export default function Booking() {
   return (
@@ -13,7 +15,7 @@ export default function Booking() {
           <Grid container>
             <Grid item xs={12} sm={12} md={6} lg={6}>
               <Box className={styles.box1}>
-                <h1>Lets Book Your Taxi Instantly</h1>
+                <h1>Lets Book <span>Your Taxi</span>  Instantly</h1>
                 <div className={styles.text}>
                   Usman Transport: Saudi Arabia’s #1 Umrah Taxi Service
                   Provider. Book online now for convenient and reliable
@@ -25,7 +27,9 @@ export default function Booking() {
                   <b>Reservations are available 24/7</b>
                 </div>
                 <br />
-                <div className={styles.number}>+966 54 344 6382</div>
+                {/* <div className={styles.number}>+966 54 344 6382</div> */}
+                <Link href="tel:+966 54 344 6382" className={styles.number} style={{textDecoration: 'none'}} >
+                +966 54 344 6382                </Link>
                 <br />
               </Box>
             </Grid>
@@ -156,6 +160,7 @@ export default function Booking() {
                     <br />
                     <button className={styles.btn}>Request for taxi</button>
                   </center>
+                    <br />
                 </Box>
               </Box>
             </Grid>

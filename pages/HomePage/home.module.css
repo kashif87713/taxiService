@@ -21,7 +21,7 @@
     position: absolute;
     color: white;
     top: 35%;
-    left: 27%;
+    left: 23%;
     font-family: sofia-pro,sans-serif;
   }
   .header h1{
@@ -32,14 +32,14 @@
 }
 .head2{
   position: absolute;
-left: 7%;
-font-size: 1.8rem;
-top: 57%;
+left: 13%;
+font-size: 1.4rem;
+top: 59%;
 }
 .btn{
   height: 3rem;
   width: 12rem;
-  background-color: #FFC632;
+  background-color: black;
   border: none;
   color: white;
   cursor: pointer;
@@ -49,10 +49,11 @@ top: 57%;
   top: 56%;
   left: 41%;
 }
-.link{
-  list-style-type: none;
-  /* text-decoration: none; */
-  color: white;
+.btn:hover{
+  background-color: rgb(100, 96, 96);
+  margin-right: 1px;
+  box-shadow: 0px 0px 15px #fafaff;
+  transform: scale(1.05);   
 }
 
 @media screen and (min-width : 350px) and (max-width:600px){

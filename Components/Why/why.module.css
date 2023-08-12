@@ -52,6 +52,10 @@
     cursor: pointer;
 margin: 5px;    
 }
+.box:hover{
+  box-shadow: 0px 0px 15px #fafaff;
+  transform: scale(1.05); 
+}
 .icon{
   height: 50px;
   width: 50px;
@@ -62,6 +66,13 @@ margin: 5px;
   align-items: center;
   rotate: 90deg;
 }
+.icon:hover{
+  margin-right: 1px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px #fafaff;
+    transform: scale(1.05); 
+}
 .icon1{
   height: 50px;
   width: 50px;
@@ -70,4 +81,11 @@ margin: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.icon1:hover{
+  margin-right: 1px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px #fafaff;
+    transform: scale(1.05); 
 }

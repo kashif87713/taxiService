@@ -19,6 +19,11 @@ padding-bottom: 2rem;
 }
 .img{
   width: 100%;
+  cursor: pointer;
+}
+.img:hover{
+  box-shadow: 0px 0px 15px #fafaff;
+  transform: scale(1.05);   
 }
 .btn{
   height: 3rem;
@@ -34,6 +39,8 @@ padding-bottom: 2rem;
 .btn:hover{
   background-color: rgb(100, 96, 96);
   margin-right: 1px;
+  box-shadow: 0px 0px 15px #757577;
+  transform: scale(1.05);   
 }
 
 @media screen and (min-width : 350px) and (max-width:600px){

@@ -89,7 +89,8 @@
   }
   .navcontainer li a:hover{
    color: #FFC632;
-    ;
+   transform: scale(1.05);  
+    
   
   }
   
