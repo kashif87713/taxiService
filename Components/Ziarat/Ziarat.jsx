@@ -15,6 +15,14 @@ import img4 from "../../Images/ziarat/5.webp";
 import img5 from "../../Images/ziarat/6.webp";
 import img6 from "../../Images/ziarat/7.webp";
 import img7 from "../../Images/ziarat/8.webp";
+import img8 from '../../Images/ziarat/10.jpg';
+import img9 from '../../Images/ziarat/11.jpg';
+import img10 from '../../Images/ziarat/12.jpg';
+import img11 from '../../Images/ziarat/13.jpg';
+import img12 from '../../Images/ziarat/14.jpg';
+import img13 from '../../Images/ziarat/15.jpg';
+
+
 
 import {
   Card,
@@ -88,13 +96,13 @@ export default function ScrollableTabsButtonForce() {
                   className={styles.tab}
                 >
                   <Tab
-                    label="Makkah "
+                    label="HARRAM "
                     className={styles.tabhead}
                     sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(0)}
                   />
                   <Tab
-                    label="Jab e Nor"
+                    label="Jabl e Nor"
                     className={styles.tabhead}
                     sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(1)}
@@ -112,13 +120,13 @@ export default function ScrollableTabsButtonForce() {
                     {...a11yProps(3)}
                   />
                   <Tab
-                    label="Gare Sor"
+                    label="Jable Sor"
                     className={styles.tabhead}
                     sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(4)}
                   />
                   <Tab
-                    label="Maidan"
+                    label=" Arfat"
                     className={styles.tabhead}
                     sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(5)}
@@ -134,6 +142,42 @@ export default function ScrollableTabsButtonForce() {
                     className={styles.tabhead}
                     sx={{backgroundColor:'whitesmoke' }}
                     {...a11yProps(7)}
+                  />
+                   <Tab
+                    label="Masjid e Nabvi"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(8)}
+                  />
+                   <Tab
+                    label="Masjid Qubah"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(9)}
+                  />
+                   <Tab
+                    label="Masjid qiblatain"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(10)}
+                  />
+                   <Tab
+                    label="Shuhada e uhad"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(11)}
+                  />
+                   <Tab
+                    label="Ghazwa khandaq"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(12)}
+                  />
+                   <Tab
+                    label="Jannat tul baqi"
+                    className={styles.tabhead}
+                    sx={{backgroundColor:'whitesmoke' }}
+                    {...a11yProps(12)}
                   />
                 </Tabs>
               </Box>
@@ -422,46 +466,147 @@ export default function ScrollableTabsButtonForce() {
               </Grid>
             </Grid>
           </TabPanel>
+          <TabPanel value={value} index={8}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img8}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Masjid e Nabvi</Box>
+                <br />
+                <Box className={styles.text}>
+                Masjid-e-Nabawi in Medina, Saudi Arabia, stands as a cherished mosque built during Prophet Muhammad's time, holding immense significance in Islam. Also known as the Prophet's Mosque, it's a vital pilgrimage site. The spacious courtyard features "Riyadh al-Jannah," a holy garden, and "Rawdah," where Prophet Muhammad's tomb lies. Adorned with domes and minarets, the mosque's serene aura and historical importance attract countless visitors. We offer a unique taxi service to Masjid-e-Nabawi , welcoming travelers from all over Saudi Arabia to experience its spiritual and cultural treasure, symbolizing Prophet Muhammad's teachings. It's a peaceful haven for reflection and devotion, an iconic global landmark connecting souls.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
+          <TabPanel value={value} index={9}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img9}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Masjid Qubah</Box>
+                <br />
+                <Box className={styles.text}>
+                Discover the historical significance of Masjid-e-Quba, the first mosque in Islam located in Medina, Saudi Arabia. A site of profound importance, it was established during Prophet Muhammad's time. Now, experience the convenience of our taxi service, connecting you to Masjid-e-Quba and other destinations across Saudi Arabia. As a reliable taxi provider, we welcome travelers from all over the country to explore religious and cultural landmarks, ensuring a comfortable and hassle-free journey. Let us be your partner in discovering the heritage of Islam and the beauty of Saudi Arabia through our exceptional taxi service.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
+          <TabPanel value={value} index={10}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img10}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Masjid e Qiblatain</Box>
+                <br />
+                <Box className={styles.text}>
+                Embrace the historical essence of Masjid Qiblatain in Medina, Saudi Arabia – the mosque where the direction of Muslim prayer (qibla) was changed by Prophet Muhammad (peace be upon him). Its significance resonates through time. We offer a reliable taxi service catering to travelers from all corners of Saudi Arabia, ensuring seamless journeys to destinations like Masjid Qiblatain. With our dedicated service, your exploration of Saudi Arabia's cultural and religious treasures becomes comfortable and convenient. Let us accompany you on a journey that unites heritage and convenience, as you delve into the rich tapestry of Islamic history and Saudi Arabian charm.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
+          <TabPanel value={value} index={11}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img11}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Shuhda e uhad</Box>
+                <br />
+                <Box className={styles.text}>
+                Embark on a meaningful journey to the historic site of Shuhada-e-Uhad in Medina, Saudi Arabia, where the martyrs of the Battle of Uhud rest. Pay your respects to their sacrifice and valor in this hallowed ground. Our taxi service offers a reliable and comfortable means of transportation for travelers across Saudi Arabia, ensuring your visit to Shuhada-e-Uhad is hassle-free and memorable. As you explore this significant landmark, let us be your travel partner, connecting you to the rich heritage of Islam and Saudi Arabia. Experience the convenience of our taxi service on a journey of remembrance and reflection.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
+          <TabPanel value={value} index={12}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img12}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Ghazwa e Khandaq</Box>
+                <br />
+                <Box className={styles.text}>
+                Embark on a historical journey to the site of Gazwa-e-Khandaq (the Battle of the Trench) in Medina, Saudi Arabia, where a pivotal event in Islamic history took place. Honor the valor of Prophet Muhammad (peace be upon him) and his companions. Our taxi service ensures a smooth travel experience for individuals across Saudi Arabia, making your visit to Gazwa-e-Khandaq convenient and memorable. Let us be your trusted travel companion, connecting you to the heritage of Islam and Saudi Arabia. Explore with ease as you delve into this significant landmark, guided by the comfort and reliability of our taxi service.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
+          <TabPanel value={value} index={13}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={4}>
+                <br />
+                <br />
+                <br />
+                <Image
+                  src={img13}
+                  className={styles.img}
+                  alt="img"
+                  height={200}
+                  width={200}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={8}>
+                <Box className={styles.header}>Jannat Ul baqi</Box>
+                <br />
+                <Box className={styles.text}>
+                Embark on a sacred journey to Jannat ul-Baqi in Medina, Saudi Arabia – a revered burial ground where many companions of Prophet Muhammad (peace be upon him) rest. Pay your respects to these luminous souls in this cherished location. Our taxi service ensures seamless travel for individuals across Saudi Arabia, facilitating your visit to Jannat ul-Baqi with convenience. As you explore this significant landmark, let us be your reliable travel partner, connecting you to the essence of Islamic heritage and Saudi Arabia. Experience the ease of our taxi service as you engage in a journey of reverence and reflection.
+                </Box>
+              </Grid>
+            </Grid>
+          </TabPanel>
         </Box>
       </Container>
     </Box>
   );
 }
 
-// import * as React from 'react';
-// import Tabs from '@mui/material/Tabs';
-// import Tab from '@mui/material/Tab';
-// import Box from '@mui/material/Box';
-
-// export default function ScrollableTabsButtonForce() {
-//   const [value, setValue] = React.useState(0);
-
-//   const handleChange = (event, newValue) => {
-//     setValue(newValue);
-//   };
-
-//   return (
-//     <Box sx={{ width: '100%' }}>
-//       <Tabs
-//         value={value}
-//         onChange={handleChange}
-//         variant="scrollable"
-//         scrollButtons
-//         allowScrollButtonsMobile
-//         aria-label="scrollable force tabs example"
-//       >
-//         <Tab label="Item One" className={styles.tab} >
-// <div className={styles.text} >
-// Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit sint dignissimos nobis unde? Quibusdam nobis minima nesciunt cum doloribus illo quam earum deleniti nihil iusto quasi, provident fugiat odit.
-// </div>
-//         </Tab>
-//         <Tab label="Item Two" />
-//         <Tab label="Item Three" />
-//         <Tab label="Item Four" />
-//         <Tab label="Item Five" />
-//         <Tab label="Item Six" />
-//         <Tab label="Item Seven" />
-//       </Tabs>
-//     </Box>
-//   );
-// }

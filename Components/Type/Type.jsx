@@ -27,7 +27,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -61,8 +61,8 @@ export default function ScrollableTabsButtonForce() {
     router.push('/products')
   }
   return (
-        <Box className={styles.products} >
-      <Container  >
+        <Box className={styles.type} >
+      {/* <Container  > */}
          
           <br/>
     <Box  sx={{ width: '100%' }}>
@@ -76,16 +76,17 @@ export default function ScrollableTabsButtonForce() {
 
         </Tabs>
       </Box>
+      {/* <Container> */}
       <TabPanel value={value} index={0}>
-      <Grid container spacing={3}>
+      <Grid container>
           <Grid item xs={12} sm={6} md={6} lg={6}>
-            <Box>
+            <Box className={styles.box} >
               <Image src={img}  className={styles.img} alt='img' />
               </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={6}>
 <Box className={styles.header} >
-STARIA H1 7 Seater
+  STARIA H1 7 Seater
 </Box>
 <ul className={styles.ul} >
   <li>Madina Airport to hotel <span>150 SAR</span> </li>
@@ -182,8 +183,9 @@ GMC 7 Seater
          
         </Grid>
       </TabPanel> 
+      {/* </Container> */}
     </Box>
-    </Container>
+    {/* </Container> */}
     </Box>
   );
 }

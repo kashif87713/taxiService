@@ -1,9 +1,12 @@
 .why{
   background-color: whitesmoke;
   height: auto;
-  width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 1.4rem;
+}
+.details{
+  width: 90%;
+  margin: auto;
 }
 .header{
   font-size: 2rem;
@@ -41,7 +44,7 @@
 }
 .box{
   height: 300px;
-  width: 85%;
+  width: 95%;
   background-color: white;
   padding: 1.5rem 0 0 2rem;
   border-radius: 10px;
@@ -50,7 +53,7 @@
   box-shadow: 0px 24px 80px -24px rgba(0, 0, 0, 0.24);
     transition: background 0.3s, border 0.3s,;
     cursor: pointer;
-margin: 5px;    
+margin: 10px;    
 }
 .box:hover{
   box-shadow: 0px 0px 15px #fafaff;

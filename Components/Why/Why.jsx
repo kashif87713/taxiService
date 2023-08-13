@@ -20,7 +20,7 @@ export default function Why() {
   return (
     <>
       <Box className={styles.why}>
-        <Container>
+      <Box className={styles.details}>
           <Box className={styles.header}>
             <br />
             <center>
@@ -89,7 +89,7 @@ export default function Why() {
               </Box>
             </Grid>
           </Grid>
-        </Container>
+         </Box>
       </Box>
     </>
   );

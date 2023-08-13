@@ -7,7 +7,7 @@ export default function Vehicle() {
   return (
     <>
     <Box className={styles.vehicle} >
-      <Container>
+      {/* <Container> */}
         <center>
 <Box className={styles.header} >
   <br />
@@ -18,7 +18,7 @@ Subhan Umrah <span>Taxi Vehicle</span>  Collection
 <div className={styles.text} >We provide taxi service All over Saudi Arabia</div>
 </center>
     <BasicTabs/>
-</Container>
+{/* </Container> */}
     </Box>
     <br />
     </>
