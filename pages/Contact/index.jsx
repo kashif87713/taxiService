@@ -54,7 +54,7 @@ export default function index() {
 <Link
   href="https://wa.me/+966543446382"
   target="_blank"
-  className={styles.icons}
+  className={styles.infor}
   style={{ textDecoration: 'none' }}
 >
   +966 54 344 6382
@@ -62,8 +62,8 @@ export default function index() {
 <br />
 <br />
 
-                <Link href="tel:+966 5 357 1037" className={styles.icons} style={{textDecoration: 'none'}} >
-                +966 5 357 1037             </Link>
+                <Link href="tel:+966 53 557 1037" className={styles.infor} style={{textDecoration: 'none'}} >
+                +966 53 557 1037             </Link>
               </Grid>
               <br />
               <Grid item xs={12} sm={4} md={4} lg={4}>
