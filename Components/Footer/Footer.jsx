@@ -147,13 +147,15 @@ export default function Footer() {
                 <div className={styles.ico}>
                   <WhatsAppIcon fontSize="medium" />
                 </div>
-                <Link
-                  href="https://wa.me/+966 54 344 6382"
-                  target="_blank"
-                  className={styles.icons}
-                  style={{textDecoration: 'none'}}
-                >
-+966 54 344 6382                </Link>
+               
+<Link
+  href="https://wa.me/+966543446382"
+  target="_blank"
+  className={styles.icons}
+  style={{ textDecoration: 'none' }}
+>
+  +966 54 344 6382
+</Link>
               </Box>
               <br />
               <Box className={styles.boxIcon}>

@@ -14,7 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.box{
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  /* left: 20px; */
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
