@@ -14,7 +14,8 @@ import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
-import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
+// import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
+import WifiIcon from '@mui/icons-material/Wifi';
 
 export default function Why() {
   return (
@@ -82,10 +83,10 @@ export default function Why() {
               <br />
               <Box className={styles.icon1}>
                   {" "}
-                  <SentimentSatisfiedAltIcon />{" "}
+                  <WifiIcon />{" "}
                 </Box>
                 <br />
-                <Box className={styles.head}>PREMIUM QUALITY</Box>
+                <Box className={styles.head}>FREE WIFI </Box>
               </Box>
             </Grid>
           </Grid>
