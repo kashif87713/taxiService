@@ -27,8 +27,8 @@ export default function App({ Component, pageProps }) {
     src={img}
     className='img'
     alt="img"
-    height={100}
-    width={100}
+    height={80}
+    width={80}
   />
 </Link>
                   </div>

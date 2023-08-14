@@ -13,7 +13,7 @@ export default function HomePage() {
     <Box>
       <Box className={styles.home} >
 <Box className={styles.header} >
-  <i><h1>Welcome to <span className='styles.head1' >Subhan Umrah </span>Taxi Service</h1></i>
+  <i><h1>Welcome to <span className='styles.head1' >Subhan ALLAH Umrah </span>Taxi Service</h1></i>
  <i> <div className={styles.head2} >Ridding and tours services in All Over
 Saudi Arabia.</div></i>
 <br />

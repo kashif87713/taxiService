@@ -30,7 +30,7 @@ export default function Footer() {
               {/* <br/> */}
               <Typography className={styles.about} pt={2}>
                 {" "}
-                Subhan Umrah taxi service  has a wide range of premium quality
+                Subhan ALLAH Umrah taxi service  has a wide range of premium quality
                 services to provide the best value for money to global
                 customers
               </Typography>
@@ -96,30 +96,34 @@ export default function Footer() {
               <div className={styles.footerhead}>
                 <b>Main Menu</b>
               </div>
-              <div
-                onClick={(e) => handleClick(e, 'Hospital Furniture')}
-                className={styles.menudetails}
-              >
-                Book a Cab
-              </div>
-              <div
-                onClick={(e) => handleClick(e, 'Medical Imaging')}
-                className={styles.menudetails}
-              >
-                Let&apos;s talk Now
-              </div>
-              <div
-                onClick={(e) => handleClick(e, 'Laboratory Products')}
-                className={styles.menudetails}
-              >
-                Hajj & Umrah Loactions
-              </div>
-              <div
-                onClick={(e) => handleClick(e, 'Operation Equipments')}
-                className={styles.menudetails}
-              >
-                Get a quote
-              </div>
+              <br />
+              <Link href="/Contact" className={styles.menudetails} style={{textDecoration: 'none'}} >
+              
+               Book a Cab {" "}
+            
+          </Link>
+              
+             <br />
+             <br />
+               <Link href="/Booking" className={styles.menudetails} style={{textDecoration: 'none'}} >
+              
+               Let&apos;s talk Now {" "}
+            
+          </Link>
+<br />
+              <br />
+               <Link href="/Locations" className={styles.menudetails} style={{textDecoration: 'none'}} >
+              
+               Hajj & Umrah Loactions {" "}
+            
+          </Link>
+              <br />
+              <br />
+               <Link href="/Contact" className={styles.menudetails} style={{textDecoration: 'none'}} >
+              
+               Get a quote{" "}
+            
+          </Link>
               
             </Grid>
 
@@ -139,8 +143,8 @@ export default function Footer() {
                 <div className={styles.ico}>
                   <PhoneSharpIcon fontSize="medium" />
                 </div>
-                <Link href="tel:+966 54 344 6382" className={styles.icons} style={{textDecoration: 'none'}} >
-                +966 54 344 6382                </Link>
+                <Link href="tel:+966 53 557 1037" className={styles.icons} style={{textDecoration: 'none'}} >
+                +966 53 557 1037                </Link>
               </Box>
               <br />
               <Box className={styles.boxIcon}>

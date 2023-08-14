@@ -17,7 +17,7 @@ export default function Booking() {
               <Box className={styles.box1}>
                 <h1>Lets Book <span>Your Taxi</span>  Instantly</h1>
                 <div className={styles.text}>
-                  Usman Transport: Saudi Arabia’s #1 Umrah Taxi Service
+                  Subhan ALLAH Transport: Saudi Arabia’s #1 Umrah Taxi Service
                   Provider. Book online now for convenient and reliable
                   transportation. Wide range of vehicles available. Exceptional
                   customer service. Secure and hassle-free bookings.
