@@ -13,7 +13,7 @@ export default function index() {
     <Box>
        <Head>
 
-<title>Ziarat Locations in Saudi Arabia | Subhanallah Umrah Taxi</title>
+<title>Contact | Subhanallah Umrah Taxi</title>
 <meta name="description" content="Discover the significant Ziarat locations in Saudi Arabia with Subhanallah Umrah Taxi. Explore the holy sites and book your reliable transportation for a meaningful spiritual journey" />
 <meta name="keywords" content="Umrah taxi services,Reliable Umrah transportation,Affordable Umrah taxi,Professional Umrah cab services,Saudi Arabia airport transfers,Umrah pilgrimage transport,Book Umrah taxi,Hassle-free Umrah transportation,
 Affordable Umrah cab in Saudi Arabia,taxi cab,taxi near me,uber taxi,taxi service near me,taxi booking,car rental comp,airport car rental,best car rental,budget rental car near me
