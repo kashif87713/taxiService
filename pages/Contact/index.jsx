@@ -7,7 +7,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import Map from "../../Components/Map/Map";
 import Link from "next/link";
 
-
 export default function index() {
   return (
     <Box>
@@ -35,7 +34,10 @@ export default function index() {
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <LocationOnIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
+                  <LocationOnIcon
+                    className={styles.icon}
+                    sx={{ fontSize: "3rem" }}
+                  />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Location</div>
@@ -45,31 +47,38 @@ export default function index() {
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <CallIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
+                  <CallIcon className={styles.icon} sx={{ fontSize: "3rem" }} />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Contact Number</div>
-               
-                
-<Link
-  href="https://wa.me/+966543446382"
-  target="_blank"
-  className={styles.infor}
-  style={{ textDecoration: 'none' }}
->
-  +966 54 344 6382
-</Link>
-<br />
-<br />
 
-                <Link href="tel:+966 53 557 1037" className={styles.infor} style={{textDecoration: 'none'}} >
-                +966 53 557 1037             </Link>
+                <Link
+                  href="https://wa.me/+966543446382"
+                  target="_blank"
+                  className={styles.infor}
+                  style={{ textDecoration: "none" }}
+                >
+                  +966 54 344 6382
+                </Link>
+                <br />
+                <br />
+
+                <Link
+                  href="tel:+966 53 557 1037"
+                  className={styles.infor}
+                  style={{ textDecoration: "none" }}
+                >
+                  +966 53 557 1037{" "}
+                </Link>
               </Grid>
               <br />
               <Grid item xs={12} sm={4} md={4} lg={4}>
                 <br />
                 <div>
-                  <EmailIcon className={styles.icon} sx={{fontSize:'3rem' }} />{" "}
+                  <EmailIcon
+                    className={styles.icon}
+                    sx={{ fontSize: "3rem" }}
+                  />{" "}
                 </div>
                 <br />
                 <div className={styles.head}>Subhanumrahtaxi786@gmail.com</div>

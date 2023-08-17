@@ -1,11 +1,39 @@
-import React from "react";
-import { Box, Typography, Container, Grid } from "@mui/material";
+import React, { useRef, useState } from "react";
+import { Box, Typography, Container, Grid, Modal, Alert } from "@mui/material";
 import styles from "./booking.module.css";
 // import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import Link from "next/link";
+import emailjs from '@emailjs/browser';
 
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 400,
+  bgcolor: "#FDEDED",
+  boxShadow: 24,
+  borderRadius: "5px",
+};
 
 export default function Booking() {
+  const form = useRef();
+  const [load, setLoad] = useState(false);
+  const [open, setOpen] = useState(false);
+  const handleClose = () => setOpen(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_vbnvza2', 'template_vx8gtah', form.current, '7tdE5TiBWcJ75wHCu')
+      .then((result) => {
+        setOpen(true);
+        setLoad(false);
+        console.log('Your message sent successfully', result.text);
+      }, (error) => {
+        setLoad(false)
+        console.log('Error sending email', error.text);
+      });
+    }
   return (
     <Box>
       <Container>
@@ -36,9 +64,26 @@ export default function Booking() {
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}>
               <Box className={styles.box2}>
+              {open ? (
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Alert severity="success">
+                        Your Message is delivered.
+                      </Alert>
+                    </Box>
+                  </Modal>
+                ) : (
+                  ""
+                )}
                 <Box className={styles.form}>
                   <br />
                   <center>
+                   <form ref={form}>
                     <div className={styles.head}>
                       Book your <span>taxi</span>{" "}
                     </div>
@@ -73,7 +118,7 @@ export default function Booking() {
                       <center>
                         <input
                           type="email"
-                          name="name"
+                          name="email"
                           id="name"
                           placeholder=" Email"
                           className={styles.name}
@@ -91,7 +136,7 @@ export default function Booking() {
                       <center>
                         <input
                           type="number"
-                          name="name"
+                          name="phoneNumber"
                           id="name"
                           placeholder=" Phone Number"
                           className={styles.name}
@@ -109,7 +154,7 @@ export default function Booking() {
                       <center>
                         <input
                           type="name"
-                          name="name"
+                          name="pickupAddress"
                           id="name"
                           placeholder=" Pickup Adress"
                           className={styles.name}
@@ -127,7 +172,7 @@ export default function Booking() {
                       <center>
                         <input
                           type="name"
-                          name="name"
+                          name="destinationAddress"
                           id="name"
                           placeholder=" Destination Adress"
                           className={styles.name}
@@ -154,12 +199,13 @@ export default function Booking() {
                           <option value="volvo">Camry</option>
                           <option value="saab">Staria</option>
                           <option value="opel">Hiroof</option>
-                          <option value="audi">Gmc</option>
+                          <option value="audi">GMC</option>
                         </select>
                       </center>
                     </Grid>
                     <br />
-                    <button className={styles.btn}>Request for taxi</button>
+                    <button onClick={sendEmail} className={styles.btn}>Request for taxi</button>
+                    </form>
                   </center>
                     <br />
                 </Box>
