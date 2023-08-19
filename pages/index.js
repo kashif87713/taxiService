@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <Head>
         <title>taxi service</title>
-        <meta name="google-site-verification" content="ZSaGcN7LbOOhUL-oe5dsOwfR9o35XLgtQT7SHCa2GDg" />
-        <meta name="sterlize equipments" content="Medical Equipments" />
-        <meta name="company" content="UAE medical equimpents" />
+        <meta name="google-site-verification" content="sZe4_vHjYjfLQ2ePo1ha5XEEQ-sMVUJgv9EqejTgP8I" />
+        <meta name="subhanallahumrahtaxi" content="umrahtaxi" />
+        <meta name="company" content="taxi service" />
         <link rel="icon" href="/logoonly.png" />
       </Head>
       <div style={{margin: '0px'}}>
